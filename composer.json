@@ -1,0 +1,35 @@
+{
+    "name": "rhostore/yii2-rhostore",
+    "description": "Web Store for Yii 2 Application.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","rho","store","commodity"],
+    "license": "AGPLv3",
+    "authors": [
+        {
+            "name": "rhostore",
+            "email": "rhostore@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "yiisoft/yii2": ">=2.0.11",
+        "yiisoft/yii2-authclient": "*",
+        "kartik-v/yii2-widget-datetimepicker": "*",
+        "rhosocial/helpers": ">=1.0.2",
+        "rhosocial/yii2-base-models": ">=1.0.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-faker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rhostore\\base\\": ""
+        }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/rhostore/yii2-rhostore"
+        }
+    ]
+}
